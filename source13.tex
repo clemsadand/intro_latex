@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amsmath, amssymb}
+\newcommand{\abs}[1]{\lvert#1\rvert}%la valeur absolue
+\usepackage{amsthm}
+\newtheorem{definition}{Définition}[section]
+\newtheorem{propriete}{Propriété}
+\newtheorem{exemple}{Exemple}[definition]
+\begin{document}
+\section{Environnements numérotés}
+
+\begin{definition}[Inverse]
+On appelle inverse d'un nombre réel non nul $a$ le nombre $\frac{1}{a}$.
+\end{definition}
+
+\begin{propriete}[de Pythagore]
+Dans un triangle rectangle, le carré de l'hypoténuse est la somme des
+carrés des longueurs des deux autres côtés.
+\end{propriete}
+
+\begin{exemple}
+ABC est un triangle rectangle en A tel que : $AB=30$ et $BC=50$.
+
+Déterminer AC.
+\end{exemple}
+\end{document}
